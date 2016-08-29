@@ -50,16 +50,16 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Audio
-#PRODUCT_PACKAGES += \
-#    audiod \
-#    audio.a2dp.default \
-#    audio.primary.msm8916 \
-#    audio.r_submix.default \
-#    audio.usb.default \
-#    libqcompostprocbundle \
-#    libqcomvisualizer \
-#    libqcomvoiceprocessing \
-#    tinymix
+PRODUCT_PACKAGES += \
+    audiod \
+    audio.a2dp.default \
+    audio.primary.msm8916 \
+    audio.r_submix.default \
+    audio.usb.default \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    tinymix
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
@@ -72,10 +72,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml
 
 # ANT+
-#RODUCT_PACKAGES += \
-#   AntHalService \
-#   com.dsi.ant.antradio_library \
-#   libantradio
+RODUCT_PACKAGES += \
+   AntHalService \
+   com.dsi.ant.antradio_library \
+   libantradio
 
 # Camera
 PRODUCT_PACKAGES += \
