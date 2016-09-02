@@ -90,10 +90,6 @@ BOARD_HARDWARE_CLASS += \
     hardware/cyanogen/cmhw \
     $(VENDOR_PATH)/cmhw
 
-# CNE
-BOARD_USES_QCNE := true
-TARGET_LDPRELOAD := libNimsWrap.so
-
 # Crypto
 TARGET_CRYPTFS_HW_PATH := $(VENDOR_PATH)/cryptfs_hw
 TARGET_HW_DISK_ENCRYPTION := true
