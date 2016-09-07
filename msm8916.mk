@@ -183,6 +183,7 @@ PRODUCT_PACKAGES += \
     init.qcom.factory.sh
 
 PRODUCT_PACKAGES += \
+    init.local.rc \
     init.qcom.rc \
     init.qcom.power.rc \
     init.qcom.usb.rc \
